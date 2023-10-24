@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Handoff for Web",
+    "version": "1.0.0",
+    "action": {
+        "default_icon": {
+            "16": "images/128.png",
+            "24": "images/128.png",
+            "32": "images/128.png"
+        },
+        "default_title": "Handoff",
+        "default_popup": "index.html"
+    },
+    "description": "A simple extension that allows you to send links from your computer to your phone and vice versa",
+    "author": "Yuvraj Dagur",
+    "devtools_page": "devtools.html",
+    "homepage_url": "https://app.yuvrajdagur.live/handoff",
+    "incognito": "spanning",
+    "offline_enabled": true,
+    "optional_permissions": [
+        "tabs"
+    ],
+    "short_name": "Handoff"
+}
