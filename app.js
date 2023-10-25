@@ -2,14 +2,14 @@ import { initializeApp } from "./firebase/firebase-app.js";
 import { getDatabase, ref, onValue } from "./firebase/firebase-database.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBgVg0b2Hxz8TmEV50a3rQAdhasy83FYRo",
-    authDomain: "handoff-windows.firebaseapp.com",
-    databaseURL: "https://handoff-windows-default-rtdb.firebaseio.com",
-    projectId: "handoff-windows",
-    storageBucket: "handoff-windows.appspot.com",
-    messagingSenderId: "711287001274",
-    appId: "1:711287001274:web:223941bf484c4846633283",
-    measurementId: "G-8BCB908812"
+    apiKey: "AIzaSyDoK-wLM8cEkO4ro2UznQCayZgbIZb9UnU",
+    authDomain: "dropmarket-in.firebaseapp.com",
+    databaseURL: "https://dropmarket-in-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "dropmarket-in",
+    storageBucket: "dropmarket-in.appspot.com",
+    messagingSenderId: "39219558197",
+    appId: "1:39219558197:web:b6e0f8d1900b353a7afe7c",
+    measurementId: "G-DSBKX39965"
 };
 
 const app = initializeApp(firebaseConfig);
